@@ -6,3 +6,10 @@ apis:
     root: hotel/v1/hotel-v1.0.0.yaml
   travel@v1.0.0:
     root: travel/v1/travel-v1.0.0.yaml
+
+features.openapi:
+  pagination: section
+  showConsole: true
+  theme:
+    menu:
+      backgroundColor: '#fffff'

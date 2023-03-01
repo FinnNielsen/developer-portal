@@ -46,7 +46,7 @@ training:
   - group: Hotel reference
     expanded: true
     pages:
-      - page: hotel/v1/reference.page.yaml/*
+      - page: hotel/v1/hotel-v1.0.0.yaml
 
   - group: Admin
     expanded: false
