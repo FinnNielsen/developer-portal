@@ -43,10 +43,10 @@ training:
     pages:
       - page: openapi/reference.page.yaml/*
 
-  #- group: Hotel reference
-  #  expanded: true
-  #  pages:
-  #    - page: openapi/reference.page.yaml/*
+  - group: Hotel reference
+    expanded: true
+    pages:
+      - page: hotel/v1/reference.page.yaml/*
 
   - group: Admin
     expanded: false
