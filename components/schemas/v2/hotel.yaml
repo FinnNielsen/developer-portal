@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    description: Hotel id
+    type: string
+  name:
+    description: Hotel name
+    type: string
+    minLength: 4
+    maxLength: 100
+  address:
+    $ref: ./address.yaml

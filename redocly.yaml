@@ -1,0 +1,8 @@
+# See https://redocly.com/docs/cli/configuration/ for more information.
+apis:
+  hotel@v2.0.0:
+    root: hotel/v2/hotel-v2.0.0.yaml
+  hotel@v1.0.0:
+    root: hotel/v1/hotel-v1.0.0.yaml
+  travel@v1.0.0:
+    root: travel/v1/travel-v1.0.0.yaml

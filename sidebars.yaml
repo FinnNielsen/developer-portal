@@ -1,7 +1,7 @@
 training:
   - page: developer-portal/index.md
   - group: Training exercises
-    expanded: true
+    expanded: false
     pages:
       - label: Setup
         page: developer-portal/setup.md
@@ -43,8 +43,13 @@ training:
     pages:
       - page: openapi/reference.page.yaml/*
 
+  #- group: Hotel reference
+  #  expanded: true
+  #  pages:
+  #    - page: openapi/reference.page.yaml/*
+
   - group: Admin
-    expanded: true
+    expanded: false
     pages:
       - group: Routine
         expanded: true
